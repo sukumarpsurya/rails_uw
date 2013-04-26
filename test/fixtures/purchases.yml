@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  purchase_number: 
+  user: 
+  fruit: 
+
+two:
+  purchase_number: 
+  user: 
+  fruit: 
