@@ -17,11 +17,11 @@
   </div>
   <div class="field">
     <%= f.label :user %><br />
-    <%= f.text_field :user %>
+    <%= f.collection_select :user_id, User.all, :id, :name %>
   </div>
   <div class="field">
     <%= f.label :fruit %><br />
-    <%= f.text_field :fruit %>
+    <%= f.collection_select :fruit_id, Fruit.all, :id, :name %>
   </div>
   <div class="actions">
     <%= f.submit %>

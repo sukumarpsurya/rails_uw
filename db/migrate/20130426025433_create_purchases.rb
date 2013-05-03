@@ -1,7 +1,7 @@
 class CreatePurchases < ActiveRecord::Migration
   def change
     create_table :purchases do |t|
-      t.int :purchase_number
+      t.integer :purchase_number
       t.references :user
       t.references :fruit
 
